@@ -1,0 +1,71 @@
+.principal{
+	background-color:white !important;
+	text-indent: 30px;
+	margin: 30px 30px 30px 30px ;  
+	display: grid !important;
+	grid-template-columns: repeat(3,1fr);
+}
+.cabecalio{
+	background-color: pink !important;
+}
+.imagem{
+	background-color:white !important;
+	justify-content: center!important;
+}
+.content{
+	display: grid;
+	grid-template-columns: repeat(4,1fr);
+	grid-gap: 50px;
+	margin: 30px 100px 30px 100px; 
+}
+.rodape1{
+	background-color: pink!important;
+	position: absolute !important;
+	bottom: 0px !important;
+	width: 100% !important;
+}
+.rodape3{
+	background-color: pink!important;
+}
+
+.historia{
+	margin: 30px 30px 30px 30px;
+	text-indent: 30px;
+}
+.rodape2{
+	background-color: pink!important;
+	position: absolute !important;
+	bottom: 0px !important;
+	width: 100% !important;
+}
+.contenta{
+	display: grid;
+	grid-template-columns: repeat(2,1fr);
+	grid-gap: 50px;
+	margin: 30px 100px 30px 100px; 
+}
+.com a {
+	text-decoration: none;
+	color: #000;
+}
+.card-body {
+	color: #000;
+}
+.card-title:hover {
+	color: gray;
+}
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 992px) {
+  .rodape2{
+	background-color: pink!important;
+	position: relative !important;
+	bottom: 0px !important;
+	width: 100% !important;
+}
+}
+
+.com{
+	display: grid;
+	grid-template-columns: repeat(4,1fr);
+	margin: 50px 150px 50px 150px;
+}
